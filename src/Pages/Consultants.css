@@ -1,0 +1,38 @@
+/* src/Pages/Consultants.css */
+.consultants-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .search-input {
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .consultants-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .consultant-item {
+    background-color: #f9f9f9;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .consultant-item h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .consultant-item p {
+    margin: 5px 0;
+    color: #666;
+  }
+  

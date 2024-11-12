@@ -3,11 +3,10 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
+import Home from './Pages/Home';
+import Consultants from './Pages/Consultants';
+import TeamCV from './Pages/TeamCV';
 import './App.css'; // Tuodaan App.css tyylitiedosto
-
-const Home = () => <h2>Etusivu</h2>;
-const Consultants = () => <h2>Konsultit</h2>;
-const TeamCV = () => <h2>Tiimi-CV</h2>;
 
 const App = () => {
   return (

@@ -1,0 +1,53 @@
+// src/data/consultantsData.js
+const consultantsData = [
+    {
+      id: 1,
+      name: "John Doe",
+      educationLevel: "University",
+      educationProgram: "Computer Science",
+      graduationYear: 2015,
+      certificates: ["AWS Certified Solutions Architect", "Scrum Master"],
+      courses: ["React Basics", "Node.js Advanced"],
+      projectExperience: ["Project A", "Project B"],
+      techExperience: ["JavaScript", "React", "Node.js"],
+      workExperienceYears: 6,
+    },
+    {
+      id: 2,
+      name: "Jane Smith",
+      educationLevel: "Polytechnic",
+      educationProgram: "Software Engineering",
+      graduationYear: 2018,
+      certificates: ["Google Cloud Professional"],
+      courses: ["Vue.js Basics", "Django Intermediate"],
+      projectExperience: ["Project C"],
+      techExperience: ["Python", "Vue.js", "Django"],
+      workExperienceYears: 4,
+    },
+    {
+      id: 3,
+      name: "Michael Johnson",
+      educationLevel: "University",
+      educationProgram: "Information Technology",
+      graduationYear: 2020,
+      certificates: ["Azure Developer Associate", "Certified Ethical Hacker"],
+      courses: ["Angular Essentials", "Cybersecurity Fundamentals"],
+      projectExperience: ["Project D", "Project E"],
+      techExperience: ["C#", ".NET", "Angular"],
+      workExperienceYears: 3,
+    },
+    {
+      id: 4,
+      name: "Emily Brown",
+      educationLevel: "Polytechnic",
+      educationProgram: "Network Administration",
+      graduationYear: 2017,
+      certificates: ["Cisco Certified Network Associate", "CompTIA Network+"],
+      courses: ["Network Security", "Cloud Networking"],
+      projectExperience: ["Project F"],
+      techExperience: ["Networking", "Cisco", "AWS"],
+      workExperienceYears: 5,
+    },
+  ];
+  
+export default consultantsData;
