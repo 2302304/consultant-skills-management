@@ -1,17 +1,16 @@
 /* src/components/Header.css */
 .header {
-    display: flex;
-    align-items: center;
-    background-color: #f5f5f5;
-    padding: 15px 30px; /* Lisää tilaa */
-    border-bottom: 1px solid #ddd;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  
-  .header-title {
-    font-size: 20px;
-    font-weight: bold;
-    color: #333;
-  }
-  
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 15px 30px; /* Lisää tilaa */
+  border-bottom: 1px solid #ddd;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.header-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
