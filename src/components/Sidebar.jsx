@@ -9,7 +9,7 @@ const Sidebar = () => {
 
   return (
     <aside className="sidebar">
-      <h2>Konsulttien osaamisenhallinta</h2>
+      <h2></h2>
       <nav>
         <ul>
           <li className={location.pathname === '/' ? 'active' : ''}>

@@ -1,10 +1,11 @@
 // src/components/Header.jsx
 import React from 'react';
+import './Header.css';
 
 const Header = () => {
   return (
-    <header style={{ padding: '10px', borderBottom: '1px solid #ddd' }}>
-      <h1>Konsulttien osaamisenhallinta</h1>
+    <header className="header">
+      <div className="header-title">Konsulttien osaamisenhallinta</div>
     </header>
   );
 };
