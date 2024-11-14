@@ -1,0 +1,27 @@
+/* src/Pages/Home.css */
+.home-page {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #d0004b; 
+}
+
+.cv-links {
+    margin-top: 20px;
+}
+
+.cv-link {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: #d0004b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cv-link:hover {
+    background-color: #a00039;
+}
