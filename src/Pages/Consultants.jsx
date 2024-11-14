@@ -1,7 +1,10 @@
 // src/Pages/Consultants.jsx
 import React, { useState } from "react";
 import consultantsData from "../data/consultantsData";
-import './Consultants.css'; // Tuodaan Consultants.css-tiedosto
+import './Consultants.css';
+import { PDFDownloadLink } from "@react-pdf/renderer"; // Tuodaan PDF-latauslinkki
+
+import ConsultantCV from "../components/ConsultantCV"; // PDF-komponentti
 
 const Consultants = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -43,6 +46,15 @@ const Consultants = () => {
             <p>Projektikokemus: {consultant.projectExperience.join(", ")}</p>
             <p>Teknologiakokemus: {consultant.techExperience.join(", ")}</p>
             <p>Työkokemus (vuosina): {consultant.workExperienceYears}</p>
+            
+            {/* Lataa PDF-painike */}
+            <PDFDownloadLink
+              document={<ConsultantCV consultant={consultant} />}
+              fileName={`${consultant.name}-CV.pdf`}
+              className="pdf-button"
+            >
+              {({ loading }) => (loading ? "Ladataan..." : "Lataa CV PDF:nä")}
+            </PDFDownloadLink>
           </li>
         ))}
       </ul>

@@ -35,4 +35,16 @@
     margin: 5px 0;
     color: #666;
   }
-  
+  .pdf-button {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-top: 10px;
+    background-color: #d0004b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pdf-button:hover {
+    background-color: #a00039;
+}
